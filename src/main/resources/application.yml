@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+person:
+  name: littlexx
+  age: 18
+  boss: true
+  birth: 1997/08/02
+  maps: {k1: v1, k2: v2}
+  lists:
+    - wenglingzi
+    - chenggang
+    - renyumei
+    - huangyouping
+    - sunwenyou
+  dog:
+    name: xixixi
+    age: 5
