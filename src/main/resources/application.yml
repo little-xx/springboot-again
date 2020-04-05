@@ -1,6 +1,10 @@
 server:
   port: 8081
 
+spring:
+  profiles:
+    active: test
+
 person:
   name: littlexx
   age: 18
@@ -16,3 +20,23 @@ person:
   dog:
     name: xixixi
     age: 5
+
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8083
+
+spring:
+  profiles: prod
+
+---
+server:
+  port: 8084
+
+spring:
+  profiles: test
